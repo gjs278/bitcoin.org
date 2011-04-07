@@ -1,0 +1,164 @@
+body {
+text-align:center;
+font-family:"trebuchet ms", helvetica, sans-serif;
+font-size:12px;
+color:#333;
+background:url(img/bg-body.png) repeat-x #FFF;
+margin:0;
+padding:0;
+}
+
+h1,h2,#slogan {
+font-weight:400;
+letter-spacing:-1px;
+}
+
+h1 {
+background:url(img/logo-trans.png) no-repeat;
+background-repeat:no-repeat;
+text-indent:-6000px;
+color:#555;
+font-size:62px;
+width:800px;
+height:63px;
+text-align:left;
+margin:40px auto 20px;
+padding:0;
+}
+
+h2 {
+font-size:24px;
+background:none #FFF;
+}
+
+.col h2 {
+margin:-5px 0 5px;
+}
+
+a {
+color:#b33;
+}
+
+#wrap {
+position:relative;
+background:#fff;
+}
+
+#content {
+width:800px;
+text-align:left;
+margin:0 auto;
+padding:5px 15px;
+}
+
+#slogan {
+color:#333;
+font-size:26px;
+border-top:1px solid #ddd;
+border-bottom:1px solid #ddd;
+background:none #fff;
+margin:0;
+padding:10px;
+}
+
+#slogan p {
+width:800px;
+text-align:left;
+margin:0 auto;
+}
+
+#links {
+font-size:12px;
+}
+
+#description {
+font-family:Arial;
+font-size:12px;
+margin-top:9px;
+}
+
+#description p {
+margin:0;
+padding:0 0 10px;
+}
+
+#description ul {
+margin-top:0;
+}
+
+#download ul,#links ul,#contact ul,#project ul {
+padding-left:24px;
+margin:0;
+}
+
+#download ul {
+font-size:12px;
+}
+
+#footer {
+padding:2px 0;
+left:0;
+width:100%;
+text-align:center;
+color:#888;
+}
+
+#footer_content {
+margin:auto;
+}
+
+.col {
+width:370px;
+float:left;
+margin-top:10px;
+}
+
+.col_left {
+margin-right:50px;
+}
+
+.clear {
+clear:both;
+}
+
+.facebook_area {
+text-align:left;
+height:30px;
+}
+
+.copyright {
+padding-top:10px;
+}
+
+.col ul,.col li {
+margin:2px 0;
+padding:0;
+}
+
+.list_links li {
+margin:3px 0;
+}
+
+#download,#links {
+height:158px;
+}
+
+#project,#contact {
+margin-top:20px;
+}
+
+.channels li {
+margin:0;
+padding:0;
+}
+
+.languages {
+padding:0;
+margin-top:10px;
+}
+
+.languages li {
+display:inline;
+list-style:none;
+margin:0 3px;
+}

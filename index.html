@@ -1,264 +1,124 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="description" content="Bitcoin is a peer-to-peer currency. Peer-to-peer means that no central authority issues new money or tracks transactions. These tasks are managed collectively by the network." />
-<meta name="keywords" content="Bitcoin,P2P,Currency" />
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
 <title>Bitcoin P2P Virtual Currency</title>
-<style type="text/css">
-body {
-	margin:0px;
-	padding: 0px;
-	text-align: center;
-	font-family: "trebuchet ms", helvetica, sans-serif;
-	font-size: 12px;
-	color:#333;
-	background: url("img/bg-body.png") repeat-x;
-}
-h1, h2, #slogan {
-	font-weight:400;
-	letter-spacing: -1px;
-}
-h1 {
-	background: url("img/logo.png") no-repeat;
-	background-repeat: no-repeat;
-	text-indent: -6000px;
-	color: #555;
-	font-size:62px;
-	margin: 40px auto 20px auto;
-	padding: 0px;
-	width: 640px;
-	height: 63px;
-	text-align:left;
-}
-h2 {
-	font-size: 24px;
-	background: none #FFF;
-}
-a {
-	color: #b33;
-}
-a:hover {
-	text-decoration: none;
-}
-p {}
-li ul {
-	list-style-type:none;
-}
-
-#wrap {
-	background: #fff;
-}
-
-#content {
-	width: 640px;
-	text-align:left;
-	margin:0px auto;
-	padding:25px;
-}
-#slogan {
-	color: #333;
-	font-size: 26px;
-	padding:10px;
-	margin: 0px;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	background: none #fff;
-}
-
-#slogan p {
-	margin: 0px auto 0px auto;
-	width: 640px;
-	text-align:left;
-}
-
-#links {
-	font-size: 16px;
-	font-weight: bold;
-}
-#links ul {
-	list-style-type:none;
-}
-#description {
-	font-size: 12px;
-	font-weight: bold;
-}
-#contact ul, #project ul {
-	padding-left: 24px;
-	margin:0px;
-}
-
-#download ul {
-	font-size: 16px;
-	font-weight: bold;
-	list-style-type:none;
-}
-
-#footer {
-	background: url("img/bg-footer.png") repeat-x #EFEFEF;
-	padding-top:10px;
-	padding-bottom:20px;
-	margin-top:90px;
-	text-align:center;
-	color:#888;
-}
-
-#footer_content {
-	margin: auto;
-	width:540px;
-}
-
-#footer_content p {
-	padding:2px;
-	margin:5px;
-}
-
-.col {
-	width: 50%;
-	float:left;
-}
-
-</style>
+<meta name="description" content="Bitcoin is a peer-to-peer currency. Peer-to-peer means that no central authority issues new money or tracks transactions. These tasks are managed collectively by the network."/>
+<meta name="keywords" content="Bitcoin, P2P, Currency"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<link href="/style.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="/png.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.logo_trans');
+</script>
+<![endif]-->
 </head>
 <body>
+	<div id="header">
+		<h1 class="logo_trans">Bitcoin</h1>
+		<div id="slogan">
+			<p>Bitcoin P2P Virtual Currency</p>
+		</div>
+	</div>
 
-<div id="header">
-<h1>Bitcoin</h1>
-<div id="slogan">
+	<div id="wrap">
+		<div id="content">
+			<div id="description">
+				<p>Bitcoin is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:</p>
+				<ul>
+					<li>Bitcoins can be sent easily through the Internet, without having to trust middlemen.</li>
+					<li>Transactions are designed to be computationally prohibitive to reverse.</li>
+					<li>Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the Bitcoin system's money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.</li>
+				</ul>
+				<p>The total eventual circulation will be 21 million bitcoins. There will never be more coins than that. The coins are entering circulation gradually, at a steady pace over many years, to nodes supporting the network in proportion to the CPU time they contribute. With the current total CPU power on the network, most CPUs will usually take months between successfully generating 50 BTC.</p>
+				<p>You can get a few free bitcoins from the <a href="http://freebitcoins.appspot.com/">Bitcoin Faucet</a>. If Bitcoin is running when you receive a transaction, you can see it immediately, otherwise it may take 10 minutes or more after it was sent, and all blocks need to have finished downloading. Visit <a href="http://bitcoinwatch.com/">Bitcoin Watch</a> to see the current block count.</p>
+			</div>
 
-<p>P2P Virtual Currency</p>
-</div>
-</div>
+			<div class="col col_left">
+				<div id="download">
+					<h2>Download</h2>
+						<ul class="list_links">
+							<li>Windows: <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.2-win32-setup.exe/download">Install Now</a> 5.8MB</li>
+							<li>Windows: <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.2-win32.zip/download">Zip Package</a> 6.9MB</li>
+							<li>Mac OS X (10.5+ Intel): <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.01-macosx.zip/download">Zip Package</a> 7.7MB</li>
+							<li>Linux (32-bit &amp; 64-bit): <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.2-linux.tar.gz/download">Tarball</a> 9.8MB</li>
+							<li>Project Page: <a href="http://sourceforge.net/projects/bitcoin">SourceForge</a></li>
+							<li>Latest source code: <a href="https://github.com/bitcoin/bitcoin">GitHub</a></li>
+						</ul>
+				</div>
+				<div id="contact">
+					<h2>Contact / IRC</h2>
+					<ul>
+						<li>Join the <a href="http://www.bitcoin.org/smf">Bitcoin Forum</a></li>
+						<li>Join the project's active IRC channels on the <a href="http://freenode.net/">FreeNode</a> network or use the <a href="http://webchat.freenode.net/?channels=bitcoin-discussion&amp;uio=d4">FreeNode Web IRC</a>.
+							<ul class="channels">
+								<li><em>#bitcoin-discussion</em> (General Bitcoin-related)</li>
+								<li><em>#bitcoin-dev</em> (Development and technical)</li>
+								<li><em>#bitcoin-otc</em> (Over The Counter exchange)</li>
+								<li><em>#bitcoin-market</em> (Live quotes from markets)</li>
+								<li><em>#bitcoin-mining</em> (GPU mining related)</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
 
-<div id="wrap">
-<div id="content">
-
-<div id="description">Bitcoin is a peer-to-peer currency. Peer-to-peer means that no central authority issues new money or tracks transactions. These tasks are managed collectively by the network.</div>
-
-<div id="video">
-<p>
-<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/Um63OQz3bjo?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Um63OQz3bjo?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="390"></embed></object>
-</p>
-</div>
-
-<div class="col">
-<div id="links">
-<h2>Resources</h2>
-<ul>
-<li><a href="http://www.weusecoins.com">Introduction to Bitcoin</a></li>
-<li><a href="https://bitcoin.it/wiki/FAQ">FAQ</a></li>
-<li><a href="https://bitcoin.it/">Wiki / Help</a></li>
-<li><a href="http://www.bitcoin.org/smf/">Forum</a></li>
-<li><a href="https://bitcoin.it/wiki/Trade">Bitcoin-accepting merchants</a></li>
-<li><a href="https://en.bitcoin.it/wiki/Merchant_Howto">Merchant Howto</a></li>
-
-</ul>
-</div>
-<div id="project">
-<h2>Project</h2>
-<ul>
-<li>Community-driven open source project, released under the <a href="http://creativecommons.org/licenses/MIT/">MIT license</a></li>
-<li>Project Developers
-<ul>
-<li>Satoshi Nakamoto</li>
-<li>Gavin Andresen - <img src="img/gavin.png"/> (<a href="/gavinandresen.txt">PGP</a>)</li>
-
-<li>Martti Malmi - <img src="img/martti.png"/> (<a href="/mmalmi.asc">PGP</a>)</li>
-<li>Laszlo Hanyecz</li>
-<li>Nils Schneider</li>
-</ul>
-</li>
-<li>Press mailing list for presentation and interview requests: <img src="img/bitcoin-press.png"/></li>
-</ul>
-</p>
-</div>
-
-</div>
-
-<div class="col">
-<div id="download">
-<h2>Download</h2>
-<p>
-<ul>
-<li><a href="http://sourceforge.net/projects/bitcoin">Download from SourceForge</a></li>
-<li>Latest source code: <a href="https://github.com/bitcoin/bitcoin">GitHub</a></li>
-</ul>
-</p>
-</div>
-
-<div id="contact">
-<h2>Community</h2>
-<p>
-<ul>
-<li>Join the <a href="http://www.bitcoin.org/smf">Bitcoin Forum</a></li>
-<li>Join the project's active IRC channels on the <a href="http://freenode.net/">FreeNode</a> network or use the <a href="http://webchat.freenode.net/?channels=bitcoin-discussion&uio=d4">FreeNode Web IRC</a>.
-<ul>
-<li><em>#bitcoin-discussion</em> (General Bitcoin-related)</li>
-
-<li><em>#bitcoin-dev</em> (Development and technical)</li>
-<li><em>#bitcoin-otc</em>  (Over The Counter exchange)</li>
-<li><em>#bitcoin-market</em> (Live quotes from markets)</li>
-<li><em>#bitcoin-mining</em> (GPU mining related)</li>
-</ul>
-
-</li>
-</ul>
-</p>
-</div>
-
-</div>
-
-<div style="float:clear;">&nbsp;</div>
-
-</div>
-</div>
-
-<div id="footer">
-<div id="footer_content">
-<p><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.bitcoin.org/" show_faces="false" width="450" font=""></fb:like></p>
-<p><script src="http://widgets.twimg.com/j/2/widget.js"></script>
-
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'search',
-  search: 'bitcoin',
-  interval: 6000,
-  title: 'Bitcoin',
-  subject: 'P2P Virtual Currency',
-  width: 540,
-  height: 150,
-  theme: {
-    shell: {
-      background: '#8ec1da',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#444444',
-      links: '#1985b5'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: true,
-    live: true,
-    hashtags: true,
-    timestamp: true,
-    avatars: true,
-    toptweets: true,
-    behavior: 'default'
-  }
-}).render().start();
-</script></p>
-<p>
-Bitcoin Project 2009-2011<br/>
-Released under the <a href="http://creativecommons.org/licenses/MIT/">MIT license</a>
-</p>
-</div>
-</div>
-
+			<div class="col">
+				<div id="links">
+					<h2>Resources</h2>
+					<ul class="list_links">
+						<li><a href="http://www.weusecoins.com">What is Bitcoin?</a></li>
+						<li><a href="https://en.bitcoin.it/wiki/Getting_started">Installation Guide</a></li>
+						<li><a href="https://bitcoin.it/wiki/FAQ">FAQ</a></li>
+						<li><a href="https://bitcoin.it/">Wiki / Help</a></li>
+						<li><a href="http://www.bitcoin.org/smf/">Forum</a></li>
+						<li><a href="https://bitcoin.it/wiki/Trade">Stores That Accept Bitcoin</a></li>
+						<li><a href="https://en.bitcoin.it/wiki/Merchant_Howto">Merchant Howto</a></li>
+					</ul>
+				</div>
+				<div id="project">
+					<h2>Project</h2>
+					<ul>
+						<li>Community-driven open source project, released under the <a href="http://creativecommons.org/licenses/MIT/">MIT license</a></li>
+						<li>Project Developers
+							<ul>
+								<li>Satoshi Nakamoto</li>
+								<li>Gavin Andresen - <img src="img/gavin.png"/> (<a href="/gavinandresen.txt">PGP</a>)</li>
+								<li>Martti Malmi - <img src="img/martti.png"/> (<a href="/mmalmi.asc">PGP</a>)</li>
+								<li>Laszlo Hanyecz</li>
+								<li>Nils Schneider</li>
+							</ul>
+						</li>
+						<li>Press mailing list for presentation and interview requests: <img src="img/bitcoin-press.png"/></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="footer">
+		<ul class="languages">
+			<li class="zh-hans"><a href="http://bitcoin.org/zh-hans" class="language-link">简体中文</a></li>
+			<li class="zh-hant"><a href="http://bitcoin.org/zh-hant" class="language-link">繁體中文</a></li>
+			<li class="cs"><a href="http://bitcoin.org/cs" class="language-link">Čeština</a></li>
+			<li class="nl"><a href="http://bitcoin.org/nl" class="language-link">Nederlands</a></li>
+			<li class="en active"><a href="http://bitcoin.org/" class="language-link active">English</a></li>
+			<li class="eo"><a href="http://bitcoin.org/eo" class="language-link">Esperanto</a></li>
+			<li class="fi"><a href="http://bitcoin.org/fi" class="language-link">Suomi</a></li>
+			<li class="fr"><a href="http://bitcoin.org/fr" class="language-link">Français</a></li>
+			<li class="de"><a href="http://bitcoin.org/de" class="language-link">Deutsch</a></li>
+			<li class="he"><a href="http://bitcoin.org/he" class="language-link">עברית</a></li>
+			<li class="it"><a href="http://bitcoin.org/it" class="language-link">Italiano</a></li>
+			<li class="pl"><a href="http://bitcoin.org/pl" class="language-link">Polski</a></li>
+			<li class="pt-br"><a href="http://bitcoin.org/pt-br" class="language-link">Português</a></li>
+			<li class="ru"><a href="http://bitcoin.org/ru" class="language-link">Русский</a></li>
+			<li class="es"><a href="http://bitcoin.org/es" class="language-link">Español</a></li>
+			<li class="sv"><a href="http://bitcoin.org/sv" class="language-link">Svenska</a></li>
+		</ul>
+		<div id="footer_content">
+			<p class="copyright">Bitcoin Project 2009-2011<br/>Released under the <a href="http://creativecommons.org/licenses/MIT/">MIT license</a></p>
+		</div>
+	</div>
 </body>
 </html>
-
